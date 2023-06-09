@@ -1,0 +1,39 @@
+.left{
+    padding-left: 3px;
+    flex: 0.4px;
+    padding-top: 3px;
+
+}
+.right{
+    display: inline-block;
+    background-color: aquamarine;
+    flex:1.5;
+}
+.middle{
+    flex: 2;
+    height: 40px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 2fr 7fr 1fr;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    padding-bottom: 10px;
+}
+.middle2{
+    margin: 0;
+    display: flex;
+}
+.middle a{
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 0cm;
+    color: black;
+    font-weight: 500px;
+}
