@@ -1,0 +1,206 @@
+.left{
+    padding-left: 15px;
+    flex: 0.4px;
+
+}
+.right{
+    flex:1.5;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+
+}
+.middle{
+    flex: 2;
+    height: 40px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 2fr 7fr 1fr;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 10px;
+}
+.middle2{
+    margin: 0;
+    display: flex;
+}
+.middle a{
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 0cm;
+    color: black;
+    font-weight: 500px;
+}
+.search_bar{
+    border-radius: 25px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: whitesmoke;
+    text-shadow: 2px;
+    margin-top: 10px;
+    border-style: none;
+}
+.heart_logo{
+    width: 25px;
+    height: 25px;
+    padding-left: 80px;
+    padding-top: 14px;
+}
+.bag_logo{
+    width: 25px;
+    height: 25px;
+    padding-top: 14px;
+}
+.div1{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+.dunks_pic{
+    width:1500px;
+    padding-left: 8px;
+}
+.heading1{
+    text-align: center;
+    font-weight:500px;
+    font-size: 70px;
+    font-stretch: expanded;
+    margin-left: 380px;
+    margin-right: 380px;
+    margin-bottom: 0%;
+    font-family: fantasy;
+}
+.div1 p{
+    margin-bottom: 10px;
+}
+.container {
+    height: 50px;
+    position: relative;
+  }
+  
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.shop:hover{
+    opacity: 0.8;
+}
+.shop{
+    width: 80px; 
+    height: 40px; 
+    border-radius: 20px; 
+    background-color: black; 
+    color: white; 
+    font-size: medium;
+    cursor: pointer;
+    border-width: 2px;
+}
+.dunk1{
+    width: 430px;
+    height: 430px;
+}
+.div2{
+    margin-left: 40px;
+    display: inline-block;
+    margin-right: 0%;
+}
+.dunk1{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+.dunk-name{
+    text-align: right;
+    display:block;
+}
+.dunk-info{
+    width: 400px;
+    display: block;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.dunk-title,.item-title{
+    display:inline-block;
+    width: 300px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+
+}
+.dunk-price{
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.dunk-model{
+    margin-left: 5px;
+    color: grey;
+}
+.div3{
+    margin-left: 0px;
+    display: inline-block;
+    margin-right: 0px;
+}
+.latest_pic{
+    width: 100px;
+    height: 100px;
+}
+.heading2{
+    text-align: center;
+    font-weight:500px;
+    font-size: 70px;
+    font-stretch: expanded;
+    margin-left: 380px;
+    margin-right: 380px;
+    margin-bottom: 0%;
+    font-family: fantasy;
+    margin-top: 0px;
+}
+.shop_kicks{
+    width: 100px; 
+    height: 40px; 
+    border-radius: 20px; 
+    background-color: black; 
+    color: white; 
+    font-size: medium;
+    cursor: pointer;
+    border-width: 2px;
+    margin-right: 10px;
+}
+.shop_summer{
+    width: 200px; 
+    height: 40px; 
+    border-radius: 20px; 
+    background-color: black; 
+    color: white; 
+    font-size: medium;
+    cursor: pointer;
+    border-width: 2px;
+}
+.item-info{
+    width: 400px;
+    display: block;
+    margin-right: 0px;
+    margin-left: 5px;
+    color: grey;
+}
+.shirt1{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-left: 4px;
+    width: 430px;
+    height: 500px;
+}
